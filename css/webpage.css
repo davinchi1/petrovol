@@ -1,0 +1,237 @@
+*{
+	margin: 0 auto 0 auto;
+	text-align:left;
+	
+	}
+
+body{
+			background-color: ;
+			background-image:url(../images/background_5.png);
+			background-repeat:repeat;
+			
+			
+			}
+			
+#overall{
+			width:70em;
+			border: 0.2em solid #ffffff;
+			/*background-image:url(../images/background_1.png);
+			background-origin:content-box;
+			background-repeat:repeat;*/
+			background-color:#EE826F;
+			border-radius: 0.5em;
+			height:auto;
+			
+		
+				
+	}
+	
+#main_menu {
+				width:70em;
+				height:1.4em;
+				margin-top:0.50em;
+				background-color:#;
+				border-radius: 0.5em;
+								
+}				
+#main_menu ul{
+				display:block;
+				list-style:none;
+				padding-left:15em;
+				padding-right:;
+				Position:center;
+				
+				
+}								
+#main_menu li {
+				display:inline;
+				list-style:none;
+				padding:0px 13px 0 10px;
+				margin-top: 50px;
+				position:relative;
+				color:#ffffff;
+				font-size:1.2em;
+				font-family:Audiowide, Cursive,Helvetica,Serif,Merriweather,San-serif;
+}
+
+#main_menu li a{
+			text-decoration:none;
+			font-weight:bold;
+			overflow:visible;
+			color:#ffffff;
+			
+			
+}
+
+#main_menu ul li a:hover {
+			background-color:#ffffff;
+			color:#1426e5;
+			border-radius:0.5em;
+			padding:0.05em;
+
+}
+
+#main_menu ul li ul{
+			display:none;
+			visibility:hidden;
+			position:absolute;
+			padding:0;
+			margin:0;
+			left:10px;
+			overflow:visible;
+			
+			
+}
+
+#main_menu ul li ul li {
+			display:inline-block;
+			font-size:0.8em;
+			height:1.5em;
+			padding:0;
+			margin:0;
+			font-family:Helvetica,Serif,Merriweather,San-serif;
+			overflow:visible;
+			z-index:1;
+			color:#3F4041;
+			
+			
+}
+
+
+			
+	
+#main_menu ul li:hover ul {
+			background-color:;
+			color:#3F4041;
+			display:block;
+			visibility:visible;
+			overflow:visible;
+			z-index:1;
+			
+			
+}
+
+#main_menu ul li:hover ul a{
+					color:#3F4041;
+}
+
+#main_menu ul li ul li a:hover{
+				background-color:;
+				color:#1426e5;
+				font-family:Helvetica,Serif,Merriweather,San-serif;
+
+}
+
+#main_pic{
+			width:68em;
+			height:10em;
+			margin-top: 0.5em;
+			border-radius:0.5em;
+			background:url(../images/menu_pic.png);
+			background-origin:content-box;
+			background-repeat:no-repeat;
+						
+} 
+
+#side_links{
+			float:left;
+			height:30em;
+			width:8em;
+			margin: 0.0em 0.3em 0.5em 1.6em;
+			border-radius: 1em;
+			position: ;
+			z-index:1;
+			}
+			
+#side_links a img:hover{
+			-ms-transform: rotateY(40deg) ;
+			-webkit-transform: rotateY(40deg);
+			-moz-transform:rotateY(40deg);
+			transform:rotateY(40deg);
+			
+}
+#content_1{
+			float:right;
+			border: 0.2em solid #7482FD;
+			height:67em;
+			width: 55em;
+			margin: 0.5em 1.5em 0.5em 0.5em;
+			border-radius: 0.5em;
+			font-family: Marcellus,Serif,Merriweather,San-serif;
+			background-color:#ffffff;
+			opacity:0.95;
+}
+
+#content_1 h1{
+			text-align:center;
+			color: #7482FD;
+			font-family: Nyala,Helvetica,Serif,Merriweather,San-serif;
+			margin-top: 0.3em;
+			font-size:3em;
+						
+}
+
+#content_1 h2{
+			font-family:Nyala,Helvetica,Serif,Merriweather,San-serif;
+			margin-left:1.3em;
+			color:#7482FD;
+}
+
+#content_1 p {
+			color:#7482FD;
+			font-size:1.2em;
+			margin: 0em 1.5em 0em 1.5em;
+		
+
+}
+
+#content_2{
+			float:right;
+			border: 0.1em solid #ffffff;
+			height:10em;
+			width: 48em;
+			margin: 0.5em 1.5em 0.5em 0.5em;
+			border-radius: 1em;
+}
+
+.petrovol{
+			color:#84CB08;
+			font-family:Nyala,Helvetica,Serif,Merriweather,San-serif;
+			font-weight:bold;
+			font-size:1.3em;
+}
+
+
+
+
+#footnote{
+			clear:both;
+			border: 0.2em solid #7482FD;
+			height:1.5em;
+			width: 77.2em;
+			border-radius: 0.5em;
+			margin-bottom:1em;
+  			text-align: center;
+  			font-family: Helvetica;
+			color:#3F4041;
+			font-size:0.90em;
+			background-color:#ffffff;
+			opacity:0.95;
+			padding-top:0.4em;
+			font-weight:bold;
+}
+
+
+p{
+			color:white;
+			font-weight:bold;
+}
+
+.logos{
+		float:left;
+		width:5em;
+		height:4em;
+		margin-left:1.2em;
+		margin-top: 0.7em;
+		border-radius:0.5em;
+		}

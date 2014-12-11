@@ -1,0 +1,240 @@
+*{
+	margin: 0 auto 0 auto;
+	text-align:left;
+	
+}
+
+body{
+		/*background-image:url(../images/background_5.png);*/
+		background-image: url(../images/DSC_9973.png);
+		background-origin:content-box;
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+		background-position: center center;
+		width:70em;
+				
+}
+#overall{  			
+			width: 70em;
+			/*border: 0.2em solid #ffffff;
+			background-image: url(../images/DSC_9973.png);
+			background-origin:content-box;
+			background-size:100% 100%;
+			background-repeat: no-repeat;
+			background-position: center center;*/
+			border-radius: 0.5em;
+		
+				
+	}
+	
+
+	
+#main_menu {
+				width:70em;
+				height:1.4em;
+				margin-top:0.20em;
+				background-color:#;
+				border-radius: 0.5em;
+				
+}				
+#main_menu ul{
+				display:block;
+				list-style:none;
+				padding-left:15em;
+				padding-right:;
+				Position:center;
+				overflow:visible;
+				
+				
+}								
+#main_menu li{
+				display:inline;
+				list-style:none;
+				padding:0px 13px 0 10px;
+				margin-top: 50px;
+				position:relative;
+				color:white;
+				font-size:1.2em;
+				font-family:Audiowide, Cursive,Helvetica,Serif,Merriweather,San-serif;
+				overflow:visible;
+}
+
+#main_menu li a{
+			text-decoration:none;
+			color:white;
+			font-weight:bold;
+			overflow:visible;
+			
+}
+
+#main_menu ul li a:hover {
+			background-color:#ffffff;
+			color:#1426e5;
+			border-radius:0.5em;
+			padding:0.05em;
+
+}
+
+#main_menu ul li ul{
+			display:none;
+			visibility:hidden;
+			position:absolute;
+			padding:0;
+			margin:0;
+			left:10px;
+			overflow:visible;
+			
+			
+}
+
+#main_menu ul li ul li {
+			display:inline-block;
+			font-size:0.8em;
+			height:1.5em;
+			padding:0;
+			margin:0;
+			font-family:Helvetica,Serif,Merriweather,San-serif;
+			overflow:visible;
+			z-index:1;
+			color:#ffffff;
+			
+			
+			
+}
+
+
+			
+	
+#main_menu ul li:hover ul {
+			background-color:;
+			color:#ffffff;
+			display:block;
+			visibility:visible;
+			overflow:visible;
+			z-index:1;
+			
+			
+}
+
+#main_menu ul li:hover ul a{
+					color:#ffffff;
+}
+
+#main_menu ul li ul li a:hover{
+				background-color:;
+				color:#1426e5;
+				font-family:Helvetica,Serif,Merriweather,San-serif;
+
+}
+
+#main_pic{
+			width:65em;
+			height:6em;
+			margin-top: 1em;
+			border-radius:0.0em;
+			background:url(../images/LOGO2.PNG);
+			background-size:9em 6em;
+			background-origin:content-box;
+			background-repeat:no-repeat;
+			
+} 
+
+#side_links{
+			float:left;
+			height:30em;
+			width:8em;
+			margin: 0.5em 0.3em 0.5em 0.5em;
+			border-radius: 1em;
+									
+			}
+			
+#side_links a img:hover{
+			-ms-transform: rotateY(40deg) ;
+			-webkit-transform: rotateY(40deg);
+			-moz-transform:rotateY(40deg);
+			transform:rotateY(40deg);
+			
+}
+#content_1{
+			float:right;
+			border: 0.2em solid #7482FD;
+			height:30em;
+			width: 55em;
+			margin: 0.5em 1.5em 0.5em 0.3em;
+			border-radius: 0.5em;
+			font-family: Montserrat,Marcellus SC,Helvetica,Serif,Merriweather,San-serif;
+			background-color:#ffffff;
+			opacity:0.95;
+}
+
+#content_1 h1{
+			text-align:center;
+			color: #84CB08;
+			font-family: Montserrat,Nyala,Helvetica,Serif,Merriweather,San-serif;
+			margin-top: 0.3em;
+			font-size:3em;
+						
+}
+
+#content_1 p{
+			color:#000000;
+			font-size:1.1em;
+			margin: 0em 1.5em 0em 1.5em;
+			
+}
+
+.petrovol{
+			color:#84CB08;
+			font-family:Montserrat,Nyala,Helvetica,Serif,Merriweather,San-serif;
+			font-weight:bold;
+}
+
+#separator { 
+			float:left;
+			border-left: 0.3em solid #7482FD;
+			height:30em;
+			width: 0.1em;
+			margin-left:1.4em;
+			margin-top:-0.5em;
+			}
+
+
+
+#footnote{
+			clear:both;
+			border: 0.2em solid #7482FD;
+			height:1.5em;
+			width: 77.2em;
+			border-radius: 0.5em;
+			margin-bottom:1em;
+  			text-align: center;
+  			font-family: Helvetica;
+			color:#3F4041;
+			font-size:0.90em;
+			background-color:#ffffff;
+			opacity:0.95;
+			padding-top:0.4em;
+			font-weight:bold;
+}
+#main_menu li a{
+			text-decoration:none;
+			color:white;
+			font-weight:bold;
+
+}
+
+p{
+			color:white;
+			font-weight:bold;
+}
+
+.logos{
+		float:left;
+		width:5em;
+		height:4em;
+		margin-left:1.2em;
+		margin-top: 0.7em;
+		border-radius:0.5em;
+		}
+		
+		
